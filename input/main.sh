@@ -15,7 +15,7 @@ apt-get update
 
 #install some packages with need for UserLAnd
 apt-get install -y --no-install-recommends sudo dropbear libgl1-mesa-glx tightvncserver xterm xfonts-base twm openbox expect
-DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install r-base r-base-dev
+DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install libreoffice 
 
 #clean up after ourselves
 apt-get clean
