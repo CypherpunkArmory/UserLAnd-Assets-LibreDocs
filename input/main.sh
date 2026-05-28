@@ -14,8 +14,9 @@ chmod +x /etc/profile.d/userland.sh
 apt-get update
 
 #install some packages with need for UserLAnd
-apt-get install -y --no-install-recommends sudo dropbear libgl1-mesa-glx tightvncserver xterm xfonts-base twm openbox expect
+apt-get install -y --no-install-recommends sudo dropbear libgl1 libglx-mesa0 tightvncserver xterm xfonts-base twm openbox expect wget curl
 DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install libreoffice 
+apt-get install -y pulseaudio
 
 #clean up after ourselves
 apt-get clean
